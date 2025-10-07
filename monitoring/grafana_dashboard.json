@@ -1,0 +1,9 @@
+{
+  "dashboard": {
+    "title": "Sentio System Health",
+    "panels": [
+      {"type": "graph", "title": "API Latency", "targets": [{"expr": "request_processing_seconds"}]},
+      {"type": "graph", "title": "Error Rate", "targets": [{"expr": "error_count"}]}
+    ]
+  }
+}
