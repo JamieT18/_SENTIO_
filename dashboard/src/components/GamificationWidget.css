@@ -1,0 +1,57 @@
+.gamification-widget {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 1.5rem;
+  margin: 1rem 0;
+  max-width: 400px;
+  width: 100%;
+}
+.gamification-widget h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.progress-bar {
+  background: #eee;
+  border-radius: 8px;
+  height: 16px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+.progress {
+  background: linear-gradient(90deg, #4caf50, #2196f3);
+  height: 100%;
+  transition: width 0.5s;
+}
+.achievement-list {
+  list-style: none;
+  padding: 0;
+}
+.achievement-list li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+.achievement-list li.achieved .badge {
+  background: #4caf50;
+  color: #fff;
+}
+.badge {
+  display: inline-block;
+  background: #eee;
+  color: #333;
+  border-radius: 6px;
+  padding: 0.25rem 0.75rem;
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .gamification-widget {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  .achievement-list li {
+    font-size: 0.95rem;
+  }
+}

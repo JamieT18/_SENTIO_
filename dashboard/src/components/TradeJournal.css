@@ -1,0 +1,68 @@
+.trade-journal {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 1.25rem;
+  margin: 1rem 0;
+  max-width: 700px;
+  width: 100%;
+}
+.trade-journal h2 {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+.journal-table {
+  overflow-x: auto;
+}
+.journal-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.98rem;
+}
+.journal-table th, .journal-table td {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+.journal-table th {
+  background: #f5f5f5;
+  font-weight: 600;
+}
+.journal-table tr:nth-child(even) {
+  background: #fafafa;
+}
+.action.buy {
+  color: #388e3c;
+  font-weight: 600;
+}
+.action.sell {
+  color: #d32f2f;
+  font-weight: 600;
+}
+.positive {
+  color: #388e3c;
+  font-weight: 600;
+}
+.negative {
+  color: #d32f2f;
+  font-weight: 600;
+}
+.trade-journal.loading {
+  color: #888;
+}
+.trade-journal.error {
+  color: #c00;
+  background: #ffeaea;
+  border: 1px solid #fbb;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+@media (max-width: 600px) {
+  .trade-journal {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  .journal-table th, .journal-table td {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.95rem;
+  }
+}

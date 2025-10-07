@@ -1,0 +1,35 @@
+.deeper-analytics-widget {
+  background: #f9f9ff;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  padding: 1.25rem;
+  margin: 1rem 0;
+  max-width: 400px;
+  width: 100%;
+}
+.deeper-analytics-widget h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+.deeper-analytics-widget ul {
+  list-style: none;
+  padding: 0;
+}
+.deeper-analytics-widget li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+.deeper-analytics-widget.error {
+  color: #c00;
+  background: #ffeaea;
+  border: 1px solid #fbb;
+}
+@media (max-width: 600px) {
+  .deeper-analytics-widget {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  .deeper-analytics-widget li {
+    font-size: 0.95rem;
+  }
+}
