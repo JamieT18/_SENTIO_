@@ -1,0 +1,47 @@
+{
+  "name": "sentio-sdk",
+  "version": "2.0.0",
+  "description": "Official JavaScript/TypeScript SDK for Sentio 2.0 Trading API",
+  "main": "dist/sentio-sdk.js",
+  "types": "dist/sentio-sdk.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "trading",
+    "api",
+    "sdk",
+    "sentio",
+    "stocks",
+    "finance",
+    "typescript"
+  ],
+  "author": "Sentio Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamieT18/Sentio-2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/JamieT18/Sentio-2.0/issues"
+  },
+  "homepage": "https://github.com/JamieT18/Sentio-2.0#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0",
+    "prettier": "^2.8.0",
+    "eslint": "^8.0.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
